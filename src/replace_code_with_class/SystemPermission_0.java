@@ -1,6 +1,6 @@
 package replace_code_with_class;
 
-public class SystemPermission {
+public class SystemPermission_0 {
     private String state;
     private boolean granted;
     public final static String REQUESTED = "REQUESTED";
@@ -8,7 +8,7 @@ public class SystemPermission {
     public final static String GRANTED = "GRANTED";
     public final static String DENIED = "DENIED";
 
-    public SystemPermission(String state) {
+    public SystemPermission_0(String state) {
         state = REQUESTED;
         granted = false;
     }
